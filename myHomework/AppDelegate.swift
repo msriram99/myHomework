@@ -88,6 +88,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
+    
+ /*   homework/assignment/quiz name, description, due date, reminder date, and completion status*/
+    
+    func fetchAllTasks() -> [Homework] {
+        let fetchRequest = NSFetchRequest<Homework>(entityName: "Homework")
+        let sortDescriptor1 = NSSortDescriptor(key: "duedate", ascending: true)
+        let sortDescriptor2 = NSSortDescriptor(key: "completion_status", ascending: true)
+        fetchRequest.sortDescriptors = [sortDescriptor1, sortDescriptor2]
+        var results = [Homework]()
+        do {
+            results = try persistentContainer.viewContext.fetch(fetchRequest)
+        } catch let error as NSError {
+            print("Fetch Error \(error)")
+        }
+        return results
+    }
+
 
 }
 

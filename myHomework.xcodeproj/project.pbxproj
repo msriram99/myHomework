@@ -13,6 +13,7 @@
 		36715E611EA2DF5600DA0E73 /* myHomework.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36715E5F1EA2DF5600DA0E73 /* myHomework.xcdatamodeld */; };
 		36715E631EA2DF5600DA0E73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36715E621EA2DF5600DA0E73 /* Assets.xcassets */; };
 		36715E661EA2DF5600DA0E73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36715E641EA2DF5600DA0E73 /* LaunchScreen.storyboard */; };
+		36715E701EA2E9FC00DA0E73 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36715E6F1EA2E9FC00DA0E73 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		36715E621EA2DF5600DA0E73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36715E651EA2DF5600DA0E73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36715E671EA2DF5600DA0E73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36715E6F1EA2E9FC00DA0E73 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				36715E581EA2DF5600DA0E73 /* AppDelegate.swift */,
 				36715E5A1EA2DF5600DA0E73 /* ViewController.swift */,
 				36715E5C1EA2DF5600DA0E73 /* Main.storyboard */,
+				36715E6F1EA2E9FC00DA0E73 /* DetailViewController.swift */,
 				36715E621EA2DF5600DA0E73 /* Assets.xcassets */,
 				36715E641EA2DF5600DA0E73 /* LaunchScreen.storyboard */,
 				36715E671EA2DF5600DA0E73 /* Info.plist */,
@@ -142,6 +145,7 @@
 				36715E5B1EA2DF5600DA0E73 /* ViewController.swift in Sources */,
 				36715E591EA2DF5600DA0E73 /* AppDelegate.swift in Sources */,
 				36715E611EA2DF5600DA0E73 /* myHomework.xcdatamodeld in Sources */,
+				36715E701EA2E9FC00DA0E73 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
